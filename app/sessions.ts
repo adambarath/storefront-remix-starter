@@ -24,6 +24,7 @@ export async function getSessionStorage() {
   if (sessionStorage) {
     return sessionStorage;
   }
+  const defaultcookieSecret = 'awdbhbjahdbaw';
   const factory = await getCookieSessionStorageFactory();
   sessionStorage = factory({
     cookie: {
@@ -31,7 +32,11 @@ export async function getSessionStorage() {
       httpOnly: true,
       path: '/',
       sameSite: 'lax',
-      secrets: ['awdbhbjahdbaw'],
+      secrets: [
+        typeof process !== 'undefined'
+          ? process.env.APP_COOKIE_SECRET ?? defaultcookieSecret
+          : defaultcookieSecret,
+      ],
     },
   });
   return sessionStorage;
