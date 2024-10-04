@@ -2,6 +2,7 @@
  * True dynamic imports don't seem possible from the CF pages context, so we must keep a reference to the languages being imported
  */
 const languagesServer: { [key: string]: () => any } = {
+  hu: () => import('../public/locales/hu.json'),
   en: () => import('../public/locales/en.json'),
   es: () => import('../public/locales/es.json'),
   pt: () => import('../public/locales/pt.json'),
