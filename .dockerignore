@@ -1,0 +1,11 @@
+
+# Don't copy these dirs to build context
+.cache/
+.git/
+.github/
+.storybook/
+build/
+public/build/
+node_modules/
+
+.env

@@ -1,0 +1,23 @@
+
+# docker-compose -f ./docker-compose.yml up -d
+
+version: "3.8"
+
+services:
+  storefront:
+    container_name: vendure-storefront
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8002:8002
+    environment:
+      APP_META_TITLE: "Vendure Remix Storefront"
+      APP_META_DESCRIPTION: "A headless commerce storefront starter kit built with Remix & Vendure"
+      APP_COOKIE_SECRET: todo_change_me_supersecret
+      # VENDURE_API_URL: http://localhost:3000/shop-api
+      VENDURE_API_URL: https://readonlydemo.vendure.io/shop-api
+      # NODE_ENV: development => https://github.com/remix-run/remix/discussions/7338 throw Error("Dev server origin not set");
+      NODE_ENV: production
+      PORT: 8002
+      STRIPE_PUBLISHABLE_KEY: pk_test_
