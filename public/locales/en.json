@@ -52,6 +52,7 @@
     }
   },
   "account": {
+    "company": "[FFA] Functional Freak Apparel",
     "title": "Title",
     "firstName": "First Name",
     "lastName": "Last Name",
@@ -219,13 +220,13 @@
     }
   },
   "vendure": {
-    "title": "Vendure Remix Starter",
-    "intro": "A headless commerce storefront starter kit built with",
-    "link": "Lightning Fast Headless Commerce with Vendure and Remix",
-    "demoCredentials": "Demo credentials",
+    "title": "[FFA] Functional Freak Apparel",
+    "intro": "",
+    "link": "",
+    "demoCredentials": "",
     "exclusive": "Exclusive: Get your own",
-    "repoLinkLabel": "FREE storefront starter kit",
-    "registrationMessage": "Account registration is not supported by the demo Vendure instance. In order to use it, please connect the Remix storefront to your own local / production instance.",
-    "registrationError": "Registration can't be used with Vendure demo shop! Please connect your own instance."
+    "repoLinkLabel": "",
+    "registrationMessage": "",
+    "registrationError": ""
   }
 }

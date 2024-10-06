@@ -44,26 +44,15 @@ export default function Index() {
 
           <p className="mt-4 text-2xl text-white">
             {t('vendure.intro')}{' '}
-            <a
-              href="https://www.vendure.io"
-              className="text-blue-300 hover:text-blue-500"
-            >
-              Vendure
-            </a>{' '}
-            &{' '}
-            <a
-              href="~/routes/__cart/index"
-              className="text-red-300 hover:text-red-500"
-            >
-              Remix
-            </a>
+            <a href="#" className="text-blue-300 hover:text-blue-500"></a> &{' '}
+            <a href="#" className="text-red-300 hover:text-red-500"></a>
           </p>
           <p className="mt-4 text-gray-300 space-x-1">
             <BookOpenIcon className="w-5 h-5 inline" />
             <span>{t('common.readMore')}</span>
             <a
               className="text-primary-200 hover:text-primary-400"
-              href="https://www.vendure.io/blog/2022/05/lightning-fast-headless-commerce-with-vendure-and-remix"
+              href="#"
             >
               {t('vendure.link')}
             </a>

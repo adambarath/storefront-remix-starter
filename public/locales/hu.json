@@ -52,6 +52,7 @@
     }
   },
   "account": {
+    "company": "[FFA] Functional Freak Apparel",
     "title": "Cím",
     "firstName": "Keresztnév",
     "lastName": "Vezetéknév",
@@ -219,13 +220,13 @@
     }
   },
   "vendure": {
-    "title": "Vendure Remix Starter",
-    "intro": "Egy headless kereskedelmi bolt indítókészlet, alapja:",
-    "link": "Villámgyors headless kereskedelem Vendure és Remix segítségével",
-    "demoCredentials": "Demó hitelesítő adatok",
-    "exclusive": "Exkluzív: Szerezd meg a saját",
-    "repoLinkLabel": "INGYENES bolti indítókészlet",
-    "registrationMessage": "A fiókregisztráció nem támogatott a demó Vendure példányban. A használatához kérjük, csatlakoztasd a Remix boltot a saját helyi / éles példányodhoz.",
-    "registrationError": "A regisztráció nem használható a Vendure demó boltban! Kérjük, csatlakoztasd a saját példányodat."
+    "title": "[FFA] Functional Freak Apparel",
+    "intro": "",
+    "link": "",
+    "demoCredentials": "",
+    "exclusive": "Exclusive: Get your own",
+    "repoLinkLabel": "",
+    "registrationMessage": "",
+    "registrationError": ""
   }
 }
