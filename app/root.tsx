@@ -114,7 +114,7 @@ export default function App() {
   }, [loaderData]);
 
   return (
-    <html lang={locale} dir={i18n.dir()} id="app">
+    <html lang={locale} dir={i18n.dir()} id="app" data-theme="winter">
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
